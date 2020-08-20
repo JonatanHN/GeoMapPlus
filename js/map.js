@@ -13,7 +13,7 @@ function success(geolocationPosition) {
     var map = L.map('map').
 setView([coords.latitude, coords.longitude],
 9);
-L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/NatGeo_World_Map/MapServer/tile/{z}/{y}/{x}', {
+L.tileLayer('https://{s}.tile-cyclosm.openstreetmap.fr/cyclosm/{z}/{x}/{y}.png', {
 maxZoom: 19,
 }).addTo(map);
 var iconJHN = L.icon({
