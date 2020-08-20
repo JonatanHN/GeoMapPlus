@@ -17,7 +17,7 @@ L.tileLayer('https://{s}.tile-cyclosm.openstreetmap.fr/cyclosm/{z}/{x}/{y}.png',
 maxZoom: 19,
 }).addTo(map);
 var iconJHN = L.icon({
-    iconUrl: '../punto.png',
+    iconUrl: 'https://jonatanhn.github.io/GeoMapPlus/punto.png',
     // shadowUrl: 'leaf-shadow.png',
 
     iconSize:     [90, 90], // size of the icon
